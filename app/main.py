@@ -3,7 +3,8 @@ from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 import os
 import shutil
-from services.pdf_processor import extract_page_data
+from app.services.pdf_processor import extract_page_data
+
 
 app = FastAPI()
 
